@@ -2,15 +2,10 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import Maincontent from "./components/Maincontent";
 import Footer from "./components/Footer";
+import Eventreact from "./Event";
 
 function App() {
-  return (
-    <div>
-      <Navigation />
-      <Maincontent />
-      <Footer />
-    </div>
-  );
+  return <Eventreact />;
 }
 
 export default App;
